@@ -1,0 +1,257 @@
+:root {
+    --body-bg-color: #f2f2f2;
+    --fill-color: #A9DEF9;
+    --text-color: var(--text-color);
+}
+
+body {
+    color: var(--text-color);
+    min-width: 1050px;
+    overflow-x: hidden;
+    background-color: var(--body-bg-color);
+}
+
+.fl {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.b-center-col {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.center-col {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.heading {
+    background-image: url(/image/bg-wave.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+}
+
+header {
+    align-items: center;
+    justify-content: space-between;
+    height: 187px;
+}
+
+.logo-container {
+    width: 70px;
+    text-align: center;
+}
+
+.logo-container img {
+    width: 44px;
+}
+
+.logo-container h1 {
+    display: inline-block;
+    text-align: center;
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: var(--text-color);
+    font-family: Chakra Petch;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 16px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.heading-title,
+.content-block h1 {
+    color: var(--text-color);
+    font-family: Sansita;
+    font-size: 94px;
+    font-weight: 400;
+}
+
+.heading-title {
+    font-size: 94px;
+}
+
+.heading-description {
+    color: #595067;
+    font-family: "PT Sans";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.link-button {
+    color: var(--text-color);
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: var(--fill-color);
+    padding: 10px 72px;
+    border-radius: 32px;
+    display: inline-block;
+    margin-top: 38px;
+}
+
+.heading-img {
+    width: 150%;
+    position: relative;
+    left: -20%;
+}
+
+.content-block h1 {
+    margin-top: 128px;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.service-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card img {
+    width: 80%;
+}
+
+.service-card p {
+    color: var(--text-color);
+    font-family: PT Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service-detail-cont {
+    margin-top: 42px;
+    align-items: center;
+}
+
+.service-detail-title {
+    color: var(--text-color);
+    font-family: PT Sans;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.service-detail-description {
+    margin-top: 19px;
+    color: #595067;
+    font-family: PT Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service-detail-cont img {
+    width: 100%;
+}
+
+.review-container {
+    gap: 21px;
+    width: 95%;
+    margin: 100px auto;
+}
+
+.review-card {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    padding: 45px 21px 50px;
+}
+
+.review-card:hover {
+    background-color: var(--fill-color);
+    transform: scale(1, 1.2);
+}
+
+.review-card:hover>* {
+    transform: scale(1, 0.8);
+}
+
+.review-img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.review-uname {
+    margin-top: 15px;
+    color: #050505;
+    font-family: Sansita;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.review-text {
+    height: 80px;
+    overflow: hidden;
+    margin-top: 15px;
+    color: #595067;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.star-container {
+    margin-top: 15px;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 320px;
+    background: var(--fill-color);
+}
+
+footer .b-center-col {
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+footer .b-center-col .logo-container {
+    margin: 0 auto;
+}
+
+.icon-container {
+    margin-top: 20px;
+    gap: 33px;
+    justify-content: center;
+}
+
+.footer-icon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+footer a {
+    color: var(--text-color);
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.test {
+    margin-top: -300px;
+}
